@@ -15,3 +15,5 @@ Name= PiCube
 Exec= /usr/bin/python3 /home/pi/microbe_obliterator/mo.py
 ```
 
+
+Make sure that in /boot/config.txt you uncomment hdmi_force_hotplug=1, as without this the raspberry pi won't boot in headless mode for me. 
